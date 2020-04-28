@@ -1,0 +1,40 @@
+Steps to make your PC quickly ready for Machine Learning course
+
+1> Don't download Anaconda. Its too heavy. So many packages are never needed.
+
+2> You have installed Python 3.6 , if not do it from this link.
+https://www.python.org/downloads/release/python-368/
+// Higher versions of Python would do. 
+
+3> Ensure you are able to run Python from the command line, like;
+python --version
+
+4> Ensure pip, set-up-tools, and wheel are up to date
+While pip alone is sufficient to install from pre-built binary archives, up to date copies of the setuptools and wheel projects are useful to ensure you can also install from source archives:
+
+python -m pip install --upgrade pip setuptools wheel
+
+5> Using pip , install the following packages / modules :
+pip install pandas
+[ Word of caution : if you get an error : "pip not recognized as an internal or external command" then pip installer is not installed ]
+[ Solution : do this :
+  // Installing Pip
+  python get-pip.py
+ // Check pip version
+  pip -V 
+  
+// Fine, now continue installing all packages/ modules.   
+pip install sklearn
+pip install numpy
+pip install warnings
+pip install os
+pip install datetime
+pip install matplotlib
+pip install scikit-image
+pip install scikit-datasets
+pip install scipy
+pip install pytz
+pip install nltk
+pip install seaborn
+
+That's it you are now ready for the "Machine Learning course" by Rocky Sir & his team. 
